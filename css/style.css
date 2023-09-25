@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0px;
+    box-sizing: border-box;
+}
+body{
+   
+font-family: 'Open Sans', sans-serif;
+
+}
+h1 h2{
+    font-family: 'Abril Fatface', cursive;
+
+}
+h3 h4 h5 h6 a button{
+   
+font-family: 'Ubuntu', sans-serif;
+}
+/* common css start */
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.space-between{
+    justify-content: space-between;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    display: inline-block;
+    text-decoration: none;
+}
+
+/* common css end */
+
+
+/* top bar section start */
+#top-bar{
+   background-color: #0e2f44;
+
+}
+#top-bar p{
+    color: #fdfdfd;
+    padding: 12px 0;
+    line-height: 24px;
+    font-size: 16px;
+    font-family: 'Ubuntu', sans-serif;
+}
+/* top bar section end */
+
+
+/* nav section start */
+.pnav .row{
+    align-items: center;
+}
+.pnav ul li a {
+    padding: 40px 19px;
+    text-transform: capitalize;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #0f2f44;
+}
+.pnav ul li a:hover{
+    background-color: #fff9e6;
+    color: #ffc712;
+
+}
+.pnav ul li button{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid #dedede;
+    border: none;
+    margin-left: 20px;
+
+}
+.pnav ul li button:hover{
+    background-color: #fff9e6;
+    cursor: pointer;
+    color: #ffc712;
+}
+/* nav section end */
+
+/*  section your success start */
+.your-success-info
+.your-success-info h3{
+    color:#0f2f44;
+    font-size: 50px;
+    line-height: 70px;
+    font-weight: 500;
+    
+}
+.your-success-info h1{
+    color:#0f2f44;
+    font-size: 80px;
+    line-height: 70px;
+    font-weight: 400; 
+    padding-bottom: 10px;
+}
+.your-success-info h4 {
+    color:#8484bf ;
+    font-size: 32px ;
+    line-height: 24px ;
+    letter-spacing: 8px;
+    font-weight: 400;
+}
+.your-success-info p{
+    color: #444444 ;
+    font-size: 14px ;
+    line-height: 24px;
+  padding-top: 20px;
+  padding-bottom: 30px;
+
+}
+
+#banner{
+    background-image: url(../img/banner-background-img.jpg);
+    background-size: cover;
+    height: 600px;
+}
+.your-success-info{
+    padding-top: 140px;
+}
+.your-success-info button{
+    width: 160px;
+    height: 45px;
+    font-size: 17px;
+    border: none;
+    background-color: #8484bf;
+    color: #ffffff ;
+}
+.your-success-info ul li button:hover{
+cursor: pointer;
+}
+.your-success-info ul li {
+    padding-left: 20px;
+}
+.your-success-info ul li button{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+    background-color:#ffffff;
+    color: #8484bf;
+    margin: 0px 10px;;
+    font-weight: 500;
+}
+/* section your success end */
+/* section about us start */
+.about-us{
+    padding: 100px;
+}
+.about-us-info small{
+    color: #0f2f44;
+    font-size: 14px;
+    line-height: auto;
+
+}
+.about-us-info h3{
+    color: #0f2f44;
+    font-size: 32px;
+    line-height: auto;
+    padding-bottom: 30px;
+}
+
+.container .button-2{
+    background-color: #ffc712;
+    color: #0f2f44;
+    padding: 1px 15px;
+    font-size: 18px;
+    line-height: 44px;
+    border: none;
+    border-radius: 5px;
+}
+.container .button-3{
+    background-color: #ffffff;
+    color: #0f2f44;
+    padding: 0px 13px;
+    font-size: 18px;
+    line-height: 44px;
+    margin: 20px;
+    border-radius: 5px;
+}
+/* section about us end */
+
